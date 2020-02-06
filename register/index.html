@@ -2864,7 +2864,7 @@
                                                                         <mat-form-field _ngcontent-c10=""
                                                                                         class="mat-form-field ng-tns-c18-4 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-valid">
                                                                             <div class="mat-form-field-wrapper">
-                                                                                <div class="mat-form-field-flex" onclick="$('.select-year.ng-tns-c19').css({'opacity': '1'}); "><!---->
+                                                                                <div class="mat-form-field-flex" onclick="$('.select-year').css({'opacity': '1'}); "><!---->
                                                                                     <!---->
                                                                                     <div class="mat-form-field-infix">
                                                                                         <mat-select _ngcontent-c10=""
@@ -4617,6 +4617,8 @@ acp=$$$$&amp;"
 <script>
     $(".video-background").click(function() {
         $('.popup.select-month').css({'opacity': '0'});
+        $('.select-day').css({'opacity': '0'});
+        $('.select-year').css({'opacity': '0'});
     });
 
     $(".select-month .mat-option-text").click(function() {
